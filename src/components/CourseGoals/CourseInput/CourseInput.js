@@ -12,7 +12,7 @@ const FormControl = styled.div`
   font-weight: bold;
   display: block;
   margin-bottom: 0.5rem;
-  color ${props => (props.invalid ? 'red' : 'black')}
+  color ${props => (props.invalid ? 'red' : '#400E32')}
 }
 
 & input {
@@ -23,7 +23,7 @@ const FormControl = styled.div`
   line-height: 1.5rem;
   padding: 0 0.25rem;
   color: #400E32;
-  background: ${props => (props.invalid ? 'yeallow' : '#F2CD5C')}
+  background: ${props => (props.invalid ? 'red' : '#F2CD5C')}
 }
 
 & input:focus {
